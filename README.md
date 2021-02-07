@@ -1,5 +1,11 @@
 # dbcs
 
+Backup on DBCS
+
+What do you need:
+ - Configure the opc library.
+ 
+
 ```
 [oracle@orcl11g odbcs]$ java -jar opc_install.jar -opcId '<user>' -opcPass '<authToken>' -container databasebkp -walletDir $ORACLE_HOME/hsbtwallet/ -libDir $ORACLE_HOME/lib/ -configfile $ORACLE_HOME/config -host https://swiftobjectstorage.us-ashburn-1.oraclecloud.com/v1/<namespace>
 Oracle Database Cloud Backup Module Install Tool, build 12.2.0.1.0DBBKPCSBP_2018-06-12
